@@ -1,0 +1,119 @@
+body{
+    background-image: url("../images/1291249.png");
+}
+.login-container{
+    
+    width: 820px;
+    height: 404px;
+    background-color: #313338;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;    
+    margin-top: 300px;
+    display: flex;
+}
+.login-container .left-column{
+    width: 414px;
+    display: inline-block;
+}
+.login-container .left-column .title-container{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.login-container .left-column .title-container h1{
+    font-size: 24px;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: "gg sans","Noto Sans", "Helvetica Neue","Helvetica","Arial";
+    margin-bottom: 10px;
+    
+}
+.bold{
+    font-weight: bold;
+}
+
+.login-container .left-column .title-container p{
+    color: rgb(181, 186, 193);
+    font-size: 16px;
+    line-height: 20px;
+}
+.login-container .left-column form label span{
+    color: red;
+}
+.login-container .left-column form label{
+    text-transform: uppercase;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(181, 186, 193);
+}
+.login-container .left-column form input{
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #1E1F22;
+    color: aliceblue;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.login-container .left-column form:nth-child(4){
+    margin-bottom: 10px;
+}
+.login-container .left-column form:last-child{
+    margin-top: 20px;
+}
+.login-container .left-column form input[type="submit"]{
+    background: rgb(88, 101, 242);
+    text-transform: capitalize;
+    padding: 10px;
+    height: unset;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.login-container .left-column form input[type="submit"]:hover{
+    background-color: rgb(71,82,196);
+    
+}
+.login-container .left-column a{
+    text-decoration: none;
+    color: #00a8fc;
+    font-size: 14px;
+}
+.login-container .left-column a:hover{
+    text-decoration: underline;
+}
+.login-container .left-column p{
+    color: rgb(181, 186, 193);
+    font-size: 14px;
+    line-height: 20px;
+}
+.login-container .vertical-separator{
+    margin: 0 32px;
+    display: inline-block;
+}
+.login-container .right-column{
+    
+    width: 260px;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.login-container .right-column h2{
+    font-size: 22px;
+    line-height: 30px;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.login-container .right-column p{
+    font-size: 16px;
+    color: rgb(181,186,193);
+}

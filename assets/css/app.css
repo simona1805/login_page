@@ -1,0 +1,99 @@
+body{
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans serif";
+    padding: 0;
+    margin: 0;
+}
+div.banner-container{
+    background: #404eed;
+}
+header{
+    max-width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header div.logo-container{
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    column-gap: 30px;
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+header div button{
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+    transition: 0.3s;
+    background: #fff;
+}
+header div button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #5865f1;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+    background: #fff;
+}
+div.banner{
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+div.banner h1{
+    font-family: "ABC Ginto Nord","Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans serif";
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 56px;
+}
+div.banner p{
+    width: 65%;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+div.banner button{
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+div.banner button.Main-button{
+    background: #fff;
+}
+div.banner button.Main-button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #5865f1;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+    background: #fff;
+}
+div.banner button.Secondary-button{
+    background: #23272a;
+    color: #fff;
+}
+div.banner button.Secondary-button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+    background: #313338;
+}
